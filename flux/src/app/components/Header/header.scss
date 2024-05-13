@@ -1,0 +1,28 @@
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 25px 0px;
+
+    input{
+        height: 30px;
+        width: 200px;
+    }
+
+    nav ul{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        list-style: none;
+        padding: 0px;
+        margin: 0px;
+
+        li{
+            margin: 0px 10px;
+            cursor: pointer;
+        }
+    }
+}

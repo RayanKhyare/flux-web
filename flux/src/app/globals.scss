@@ -9,9 +9,11 @@
   --gray-text: #777777;
   --black-text: #212326;
   --primary-green:#00985F;     
+
+  --padding-page: 100px;
 }
 
 body{
-  background-color: var(--background-color);
-  
+  background-color: var(--background-color);  
+  padding:0px var(--padding-page);
 }
