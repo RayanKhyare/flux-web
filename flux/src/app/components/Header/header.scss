@@ -11,7 +11,7 @@ header{
         width: 200px;
     }
 
-    nav ul{
+    nav{
         display: flex;
         flex-direction: row;
         justify-content: space-between;
@@ -19,10 +19,5 @@ header{
         list-style: none;
         padding: 0px;
         margin: 0px;
-
-        li{
-            margin: 0px 10px;
-            cursor: pointer;
-        }
     }
 }
